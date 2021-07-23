@@ -1,0 +1,28 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "build",
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "declaration": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "typings"
+  ],
+  "include": [
+    "src/**/*",
+  ]
+}
